@@ -2,143 +2,144 @@
 
 
 body {
-    background-image: url("http://www.sholefet.com/wp-content/uploads/2014/09/WW-MsMagazine-40th-strip.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-size: 100% 100%;
-    height: 100vh;
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif
-    
-  }
+  background-image: url("http://www.sholefet.com/wp-content/uploads/2014/09/WW-MsMagazine-40th-strip.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100vw 100vh;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  font-family: 'Times New Roman', Times, serif
+  
+}
 
 
 .delete {
-    
-
-    color: black;
-    border: none;
-    font-size: small;
-    background: #ff797f;
-    padding: 5px 8px;
-    border: 1px solid black;
-    border-radius: 100%;
-   
-}
   
+
+  color: black;
+  border: none;
+  font-size: small;
+  background: #ff797f;
+  padding: 5px 8px;
+  border: 1px solid black;
+  border-radius: 100%;
+ 
+}
+
 
 .add {
-    
   
-    background-color: gray;
-    border: 2px solid #1A1A1A;
-    border-radius: 15px;
-    box-sizing: border-box;
-    color: darkgray;
-    cursor: pointer;
-    display: inline-block;
-    font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-    font-size: 15px;
-    font-weight: 600;
-    line-height: normal;
-    margin: 0;
-    /* min-height: 10px; */
-    min-width: 0;
-    outline: none;
-    padding: 12px 14px;
-    text-align: center;
-    color: black;
-    text-decoration: none;
-    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: 19%;
-    will-change: transform;
-    margin-left: 10px;
-}
 
-.toDo{
-    
-  background-color: LIGHTBLUE;
+  background-color: gray;
   border: 2px solid #1A1A1A;
   border-radius: 15px;
   box-sizing: border-box;
-  color: BLACK;
+  color: darkgray;
   cursor: pointer;
   display: inline-block;
   font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 600;
   line-height: normal;
   margin: 0;
-  min-height: 60px;
+  /* min-height: 10px; */
   min-width: 0;
   outline: none;
-  padding: 10px 24px;
+  padding: 12px 14px;
   text-align: center;
+  color: black;
   text-decoration: none;
   transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  width: 100%;
+  width: 19%;
   will-change: transform;
+  margin-left: 10px;
+}
+
+.toDo{
+  
+background-color: LIGHTBLUE;
+border: 2px solid #1A1A1A;
+border-radius: 15px;
+box-sizing: border-box;
+color: BLACK;
+cursor: pointer;
+display: inline-block;
+font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+font-size: 30px;
+font-weight: 600;
+line-height: normal;
+margin: 0;
+min-height: 60px;
+min-width: 0;
+outline: none;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+width: 100%;
+will-change: transform;
 }
 
 .input{
-  font-size: 14px;
-    border-radius: 10px;
-    line-height: 1.5;
-    padding: 5px 10px;
-    transition: box-shadow 100ms ease-in 0s, border 100ms ease-in 0s, background-color 100ms ease-in 0s;
-    border: 2px black rgb(222, 225, 226);
-    color: rgb(14, 14, 16);
-    background: rgb(222, 225, 226);
-    display: inline-block;
-    height: 36px;
-    width: 400px;
+font-size: 14px;
+  border-radius: 10px;
+  line-height: 1.5;
+  padding: 5px 10px;
+  transition: box-shadow 100ms ease-in 0s, border 100ms ease-in 0s, background-color 100ms ease-in 0s;
+  border: 2px black rgb(222, 225, 226);
+  color: rgb(14, 14, 16);
+  background: rgb(222, 225, 226);
+  display: inline-block;
+  height: 36px;
+  width: 40vw;
 }
 
 .checkbox{  
-  position: relative;
-  zoom: 1.4;
-  cursor: pointer;
-  font-size: 40px;
+position: relative;
+zoom: 1.4;
+cursor: pointer;
+font-size: 40px;
 }
 
 .container {
+
+
+padding-left: 50px;
+vertical-align: text-top;
+
+font-size: 10px;
   
-  
-  padding-left: 50px;
-  vertical-align: text-top;
-  
-  font-size: 10px;
-    
 }
 
 .item {
-  width: 400px;
-    display: inline-block;
-    font-size: x-large;
+  width: 44vw;
+  display: inline-block;
+  font-size: x-large;
 }
 
 .a {
-  list-style-type: none;
-  padding-left: 0px;
+list-style-type: none;
+padding-left: 0px;
 }
 
 .strike {
-  text-decoration: line-through
+text-decoration: line-through
 }
 
 #root {
-  background: rgb(255 255 255 / 90%);
-    width: 35%;
-    height: 75%;
-    margin: auto;
-    top: 12.5%;
-    position: relative;
-    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-    padding: 20px;
+background: rgb(255 255 255 / 90%);
+  width: 60vw;
+  height: 75%;
+  margin: auto;
+  top: 12.5%;
+  position: relative;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding: 20px;
 }
