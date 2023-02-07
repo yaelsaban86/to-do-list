@@ -5,12 +5,12 @@ import AddToList from './components/AddToList';
 
 function ToDo() {
 
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(JSON.parse(localStorage.getItem('toDoList')) || []);
   const [toDoInputValue, settoDoInputValue ] = useState("");
 
-  const addOnClick = () => {
-    setList([...list, toDoInputValue ]);
-  };
+  useEffect(() => {
+    localStorage.setItem('toDoList', JSON.stringify(list))
+  }, [list]);
 
   const deleteOnClick = (toDoDelete) =>{
     const newList = list.filter(item => item !== toDoDelete);
